@@ -1,0 +1,95 @@
+/* div p {
+    color: red;
+    font-weight: bold;
+} */
+
+
+.maba1 h4 {
+    color: royalblue;
+    font-size: 15px;
+}
+
+.maba1 p {
+    font-weight: bold;
+}
+
+/* -- pseudo class -- */
+
+.maba1 p:nth-child(2) {
+    color: violet;
+}
+
+.maba1 p:nth-child(3) {
+    color: skyblue;
+}
+
+/* -- end pseudo class -- */
+
+
+
+.maba2 h4 {
+    color: seagreen;
+    font-size: 15px;
+}
+
+.maba2 p {
+    font-style: italic;
+}
+
+
+/* css layouting  */
+/* 
+    -margin 
+    -padding
+    -border
+    -posittion 
+*/
+
+* {
+    margin: 0;
+    padding: 0;      
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #0c5398;
+    padding: 15px 10px;
+    justify-content: center;
+}
+
+.layer1, .layer2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: white
+}
+
+.layer1 h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.email , .pass {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.buttonLogin, .buttonRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttonLogin button {
+    padding: 5px;
+    background-color: #0c5398;
+    border: 1px solid white;
+    color: white;
+}
+
+.layer2 div input {
+    padding: 5px;
+}
