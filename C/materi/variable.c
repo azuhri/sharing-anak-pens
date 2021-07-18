@@ -20,7 +20,7 @@ void main() {
         // (type data) (nama_variable) = (value);
          
         // Contoh
-        int harga = 10;
+        float harga = 10.5;
 
 
     // Cara 2 :
@@ -29,8 +29,10 @@ void main() {
         // (nama_variable) = (value);
          
         // Contoh
-        int harga;
-        harga = 20;
+        int harga2;
+        harga2 = 20;
+
+        printf("%.2f", harga);
 
 
 } 

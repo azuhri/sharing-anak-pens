@@ -1,7 +1,7 @@
 #include <stdio.h> // Header File
 
 // Main Function
-void main() {     
+void main() {
     // Code...     
     printf("Hello world"); // --> Example Codes
 } 

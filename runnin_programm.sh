@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc C/belajar2.c -o test
+gcc C/belajar3.c -o test
 ./test

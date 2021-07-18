@@ -21,7 +21,6 @@ void main() {
  
 //    printf("Namanya %s , kuliah di %s , prodinya adalah %s, umurnya %d", nama_mahasiswa, kampus, prodi, umur);
 
-
     // program kasir sederhana
     int jumlahHarga = 0;
     int lagi = 1;
@@ -51,6 +50,7 @@ void main() {
         if(pilihan == 4) {
             jumlahHarga += 4000;
         }
+
         printf("Mau beli lagi: (1 =yes , 0=no)");
         scanf("%d", &lagi);
     }
