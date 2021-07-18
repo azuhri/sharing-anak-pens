@@ -52,6 +52,8 @@ int main() {
     //     printf("%s kamu dapat nilai C", name);
     // } else if( nilai < 60 ) {
     //     printf("%s kamu dapat nilai D, harus remedial", name);
+    // } else {
+    //     printf("kamu goblok");
     // }
 
     // Short meta of if else

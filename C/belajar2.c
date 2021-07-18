@@ -39,7 +39,7 @@ void main() {
         printf("Jumlahnya berapa: ");
         scanf(" %d", &jumlahBarang);
 
-        float diskon = 10.0 / 100.0; //d iskon 10%
+        float diskon = 10.0 / 100.0; //diskon 10%
         float potongan;
 
         if(pilihan == 1) {
