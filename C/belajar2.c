@@ -22,7 +22,7 @@ void main() {
 //    printf("Namanya %s , kuliah di %s , prodinya adalah %s, umurnya %d", nama_mahasiswa, kampus, prodi, umur);
 
     // program kasir sederhana
-    int jumlahHarga = 0;
+    float jumlahHarga = 0.0;
     int lagi = 1;
     while (lagi > 0) 
     {
@@ -34,27 +34,66 @@ void main() {
         int pilihan;
         printf("Mau beli yang mana?: ");
         scanf("%d", &pilihan);
+        
+        int jumlahBarang;
+        printf("Jumlahnya berapa: ");
+        scanf(" %d", &jumlahBarang);
+
+        float diskon = 10.0 / 100.0; //d iskon 10%
+        float potongan;
 
         if(pilihan == 1) {
-            jumlahHarga += 2000;
+            if(jumlahBarang >= 3) {
+                jumlahHarga += 2000;
+                jumlahHarga *= jumlahBarang;
+                potongan = jumlahHarga * diskon;
+                jumlahHarga -= potongan;
+            } else {
+                jumlahHarga += 2000;
+                jumlahHarga *= jumlahBarang;
+            }
         }
 
         if(pilihan == 2) {
-            jumlahHarga += 3000;
+             if(jumlahBarang >= 3) {
+                jumlahHarga += 3000; 
+                jumlahHarga *= jumlahBarang;
+                potongan = jumlahHarga * diskon;
+                jumlahHarga -= potongan;
+            } else {
+                jumlahHarga += 3000;
+                jumlahHarga *= jumlahBarang;
+            }
         }
 
         if(pilihan == 3) {
-            jumlahHarga += 3000;
+            if(jumlahBarang >= 3) {
+                jumlahHarga += 3000;
+                jumlahHarga *= jumlahBarang;
+                potongan = jumlahHarga * diskon;
+                jumlahHarga -= potongan;
+            } else {
+                jumlahHarga += 3000;
+                jumlahHarga *= jumlahBarang;
+            }
         }
 
         if(pilihan == 4) {
-            jumlahHarga += 4000;
+             if(jumlahBarang >= 3) {
+                jumlahHarga += 4000;
+                jumlahHarga *= jumlahBarang;
+                potongan = jumlahHarga * diskon;
+                jumlahHarga -= potongan;
+            } else {
+                jumlahHarga += 4000;
+                jumlahHarga *= jumlahBarang;
+            }
         }
 
         printf("Mau beli lagi: (1 =yes , 0=no)");
         scanf("%d", &lagi);
     }
 
-    printf("Total yang harus kamu bayar adalah: %d", jumlahHarga);
+    printf("Total yang harus kamu bayar adalah: %.2f", jumlahHarga);
 } 
 

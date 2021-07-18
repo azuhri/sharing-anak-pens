@@ -64,41 +64,37 @@ int main() {
     // (cekGolonganUmur < 5) ? printf("Anak anda masih balita") : printf("Anak Anda sudah besar");
 
     // Belajar switch case 
-    char tipeBahasa;
+    // int tipeBahasa;
 
-    printf("Daftar Bahasa: \n");
-    printf(" \t-indonesia \n");
-    printf(" \t-jepang \n");
-    printf(" \t-perancis \n");
-    printf(" \t-german \n");
-    printf(" \t-inggris \n");
+    // printf("Daftar Bahasa: \n");
+    // printf(" \t1. indonesia \n");
+    // printf(" \t2. jepang \n");
+    // printf(" \t3. perancis \n");
+    // printf(" \t4. german \n");
+    // printf(" \t5. inggris \n");
 
-    printf("Piliha bahasa: ( cth: indonesia )");
-    scanf("%c", tipeBahasa);
+    // printf("Piliha bahasa ( cth: 1/2/3/4/5 ): ");
+    // scanf("%d", &tipeBahasa);
 
-    // tipeBahasa = "indonesia";
+    // // tipeBahasa = "indonesia";
 
-    switch (tipeBahasa){
-        case 'i':
-            printf("Selamat Pagi!");
-            break;
-        case 'j':
-            printf("ohayou onii chan!");
-            break;
-        case 'p':
-            printf("bonjour!");
-            break;
-        case 'g':
-            printf("guten Morgen");
-            break;
-        default:
-            printf("Good morning!");
-            break;
-    }
-
-
-
-
+    // switch (tipeBahasa){
+    //     case 1:
+    //         printf("Selamat Pagi!");
+    //         break;
+    //     case 2:
+    //         printf("ohayou onii chan!");
+    //         break;
+    //     case 3:
+    //         printf("bonjour!");
+    //         break;
+    //     case 4:
+    //         printf("guten Morgen");
+    //         break;
+    //     default:
+    //         printf("Good morning!");
+    //         break;
+    // }
 
 }   
 
