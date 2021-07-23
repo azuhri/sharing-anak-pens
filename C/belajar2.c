@@ -23,6 +23,7 @@ void main() {
 
     // program kasir sederhana
     float jumlahHarga = 0.0;
+    float totalHarga = 0.0;
     int lagi = 1;
     while (lagi > 0) 
     {
@@ -90,10 +91,13 @@ void main() {
             }
         }
 
+        totalHarga += jumlahHarga;
+        jumlahHarga = 0;
+
         printf("Mau beli lagi: (1 =yes , 0=no)");
         scanf("%d", &lagi);
     }
 
-    printf("Total yang harus kamu bayar adalah: %.2f", jumlahHarga);
+    printf("Total yang harus kamu bayar adalah: %.2f", totalHarga);
 } 
 
