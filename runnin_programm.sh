@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc C/belajar2.c -o test
+gcc C/soal-kakel.c -o test
 ./test
