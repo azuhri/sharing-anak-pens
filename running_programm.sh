@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc C/latihan/nilai-rapot.c -o test
+gcc C/latihan/write.c -o test
 ./test

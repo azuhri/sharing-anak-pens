@@ -28,6 +28,7 @@ void main() {
         printf("Hasil Ulangan harian ke-%i: %f\n", i + 1, dataUlangan[i]);
         nilaiRapot += dataUlangan[i];
     }
+    
     printf("Nilai Rapot: %.1f", nilaiRapot / banyakUlangan);
-
+    
 } 
